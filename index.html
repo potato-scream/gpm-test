@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>gpm-test</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="form.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <img src="img/75-logo.svg" class="header__logo">
+        <div class="header__logo-box">
+          <img src="img/congrats.svg" class="header__logo-letters">
+          <div class="header__date">С 23 апреля</div>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a class="header__link" href="#">главная</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__link" href="#">Как участвовать</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__link" href="#">Участники</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__link" href="#">Новости</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__open-btn" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="header__modal">
+          <button class="header__close-btn" type="button">
+            <span class="visually-hidden">Закрыть меню</span>
+          </button>
+          <nav class="header__mobile-nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__link" href="#">главная</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">Как участвовать</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">Участники</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#">Новости</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__date header__date--bottom">С 23 апреля</div>
+        <h1 class="header__title">Память поколений</h1>
+        <p class="header__paragraph">
+          У каждого из нас есть близкие, которые стали свидетелями тех военных лет, совершали подвиги и вершили историю!
+          Защищали Родину и боролись за мирную жизнь!<br>
+          Поделитесь историей и фотографией своих родных и они<br> прозвучат в эфире Радио Romantika!
+        </p>
+        <button class="header__button red-btn" type="button">Участвовать</button>
+      </div>
+    </div>
+    <div class="header__bottom"></div>
+  </header>
+  <main class="main">
+    <div class="steps">
+      <div class="container container--steps">
+        <h2 class="steps__title section-title">Как участвовать</h2>
+        <ul class="steps__list">
+          <li class="steps__card card card--first">
+            <h3 class="card__title">1 шаг</h3>
+            <p class="card__text">Заполните заявку для участия у нас на странице</p>
+          </li>
+          <li class="steps__card card card--second">
+            <h3 class="card__title">2 шаг</h3>
+            <p class="card__text">Напишите о своем родственнике, принимавшем участие в Великой Отечественной войне</p>
+          </li>
+          <li class="steps__card card card--third">
+            <h3 class="card__title">3 шаг</h3>
+            <p class="card__text">Загрузите фотографию. Готово!</p>
+          </li>
+        </ul>
+        <button class="steps__button red-btn" type="button">Отправить заявку</button>
+      </div>
+    </div>
+    <div class="members">
+      <h2 class="members__title section-title">Участники</h2>
+      <ul class="members__list">
+
+        <li class="members__card member-card">
+          <div class="member-card__photo-box">
+            <img class="member-card__photo" src="img/person.png" alt="Фото родственника">
+            <div class="member-card__photo-name">
+              <span class="member-card__name-box">
+                Имя Фамилия Отчество
+              </span>
+            </div>
+          </div>
+          <div class="member-card__body">
+            <p class="member-card__paragraph member-card__paragraph--first">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod venenatis cursus arcu elementum
+              blandit massa euismod blandit. Porttitor ultrices ultricies cras morbi sit. Et, sed nibh egestas aliquam
+              faucibus egestas. Quis in phasellus pharetra, tortor metus.
+            </p>
+            <p class="member-card__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices bibendum viverra aliquam duis vehicula
+              vitae sit varius urna. Magnis quis egestas scelerisque vivamus ornare. Quis in phasellus pharetra, tortor
+              metus Vitae, tempus est convallis pulvinar pharetra tristique aliquet. Imperdiet vulputate turpis velit
+              tincidunt volutpat eu pulvinar sed nec. Quam ornare sit vel rhoncus quam. Hac sed vitae in morbi sem. Vel
+              eu odio
+            </p>
+            <div class="member-card__footer">
+              <div class="member-card__personal-info">
+                <p class="member-card__name">
+                  <span class="member-card__name-bold">
+                    Имя Фамилия
+                  </span>
+                  (правнучка)
+                </p>
+                <p class="member-card__city">
+                  г. Москва
+                </p>
+              </div>
+              <ul class="member-card__socials">
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--odnoklassniki" href="#">
+                    <span class="visually-hidden">Одноклассники</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--facebook" href="#">
+                    <span class="visually-hidden">Фейсбук</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--vk" href="#">
+                    <span class="visually-hidden">Вконтакте</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="members__card member-card member-card--reversed">
+          <div class="member-card__photo-box">
+            <img class="member-card__photo" src="img/person2.jpg" alt="Фото родственника">
+            <div class="member-card__photo-name">
+              <span class="member-card__name-box">
+                Имя Фамилия Отчество
+              </span>
+            </div>
+          </div>
+          <div class="member-card__body">
+            <p class="member-card__paragraph member-card__paragraph--first">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod venenatis cursus arcu elementum
+              blandit massa euismod blandit. Porttitor ultrices ultricies cras morbi sit. Et, sed nibh egestas aliquam
+              faucibus egestas. Quis in phasellus pharetra, tortor metus.
+            </p>
+            <p class="member-card__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod venenatis cursus arcu elementum
+              blandit massa euismod blandit. Porttitor ultrices ultricies cras morbi sit. Et, sed nibh egestas aliquam
+              faucibus egestas. Magnis quis egestas scelerisque vivamus ornare. Quis in phasellus pharetra, tortor
+              metus. Diam tristique sociis nec imperdiet in viverra egestas et. Vitae, tempus est convallis pulvinar
+              pharetra tristique aliquet. Imperdiet vulputate turpis velit tincidunt volutpat eu pulvinar sed nec. Quam
+              ornare sit vel rhoncus quam. Hac sed vitae in morbi sem. Vel eu odio pharetra, lacus a
+            </p>
+            <div class="member-card__footer">
+              <div class="member-card__personal-info">
+                <p class="member-card__name">
+                  <span class="member-card__name-bold">
+                    Имя Фамилия
+                  </span>
+                  (правнучка)
+                </p>
+                <p class="member-card__city">
+                  г. Москва
+                </p>
+              </div>
+              <ul class="member-card__socials">
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--odnoklassniki" href="#">
+                    <span class="visually-hidden">Одноклассники</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--facebook" href="#">
+                    <span class="visually-hidden">Фейсбук</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--vk" href="#">
+                    <span class="visually-hidden">Вконтакте</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="members__card member-card">
+          <div class="member-card__photo-box">
+            <img class="member-card__photo" src="img/person.png" alt="Фото родственника">
+            <div class="member-card__photo-name">
+              <span class="member-card__name-box">
+                Имя Фамилия Отчество
+              </span>
+            </div>
+          </div>
+          <div class="member-card__body">
+            <p class="member-card__paragraph member-card__paragraph--first">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis euismod venenatis cursus arcu elementum
+              blandit massa euismod blandit. Porttitor ultrices ultricies cras morbi sit. Et, sed nibh egestas aliquam
+              faucibus egestas. Quis in phasellus pharetra, tortor metus.
+            </p>
+            <p class="member-card__paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices bibendum viverra aliquam duis vehicula
+              vitae sit varius urna. Convallis euismod venenatis cursus arcu elementum blandit massa euismod blandit.
+              Porttitor ultrices ultricies cras morbi sit. Et, sed nibh egestas aliquam faucibus egestas. Magnis quis
+              egestas scelerisque vivamus ornare. Quis in phasellus pharetra, tortor metus. Diam tristique sociis nec
+              imperdiet in viverra egestas et. Vitae, tempus est convallis pulvinar pharetra tristique aliquet.
+              Imperdiet vulputate turpis velit tincidunt volutpat eu pulvinar sed nec. Quam ornare sit vel rhoncus quam.
+              Hac sed vitae in morbi sem. Vel eu odio pharetra, lacus a
+            </p>
+            <div class="member-card__footer">
+              <div class="member-card__personal-info">
+                <p class="member-card__name">
+                  <span class="member-card__name-bold">
+                    Имя Фамилия
+                  </span>
+                  (правнучка)
+                </p>
+                <p class="member-card__city">
+                  г. Москва
+                </p>
+              </div>
+              <ul class="member-card__socials">
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--odnoklassniki" href="#">
+                    <span class="visually-hidden">Одноклассники</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--facebook" href="#">
+                    <span class="visually-hidden">Фейсбук</span>
+                  </a>
+                </li>
+                <li class="member-card__socials-item">
+                  <a class="member-card__socials-link member-card__socials-link--vk" href="#">
+                    <span class="visually-hidden">Вконтакте</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="members__breadcrumb breadcrumb">
+        <button class="members__breadcrumb-btn members__breadcrumb-btn--previous" type="button"></button>
+        <ul class="members__breadcrumb-list">
+          <li class="members__item">
+            <a class="members__breadcrumb-link members__breadcrumb-link--active" href="#">1</a>
+          </li>
+          <li class="members__item">
+            <a class="members__breadcrumb-link" href="#">2</a>
+          </li>
+          <li class="members__item">
+            <a class="members__breadcrumb-link" href="#">3</a>
+          </li>
+        </ul>
+        <button class="members__breadcrumb-btn members__breadcrumb-btn--next" type="button"></button>
+      </div>
+
+    </div>
+    <div class="news">
+      <div class="container">
+
+        <h2 class="news__title section-title">Новости</h2>
+        <img class="news__image" src="img/news-mock.jpg" alt="">
+      </div>
+    </div>
+  </main>
+
+  <div class="modal-form">
+    <button class="modal-form__close" type="button">
+      <span class="visually-hidden">Закрыть форму</span>
+    </button>
+    <h2 class="modal-form__title">Подать заявку</h2>
+    <form class="modal-form__form form" action="" method="POST" name="application-form">
+      <label class="form__label" for="name">Ваше имя и фамилия</label>
+      <input class="form__input" type="text" name="name" id="name" pattern="(\w{2,} \w{2,})" autofocus required>
+
+      <label class="form__label" for="city">Город</label>
+      <input class="form__input" type="text" name="city" id="city" required>
+
+      <div class="form__group">
+        <div class="form__item">
+          <label class="form__label" for="tel">Телефон</label>
+          <input class="form__input" type="tel" id="phone" name="phone"
+            pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$" required>
+        </div>
+        <div class="form__item">
+          <label class="form__label" for="mail">Email</label>
+          <input class="form__input" type="email" name="email" id="email" pattern=".+@.+\..+" required>
+        </div>
+      </div>
+
+      <label class="form__label" for="relative-name">Имя и фамилия родственника</label>
+      <input class="form__input" type="text" name="relative-name" id="relative-name" pattern="(\w{2,} \w{2,})" required>
+
+      <label class="form__label" for="relation">Кем вы приходитесь (внук, племянница и тд)</label>
+      <input class="form__input" type="text" name="relation" id="relation" required>
+
+      <button class="form__image-upload red-btn" type="button">
+        <input type="file" class="form__image-upload-element">
+        Прикрепить фото
+      </button>
+
+      <div class="form__textarea-box">
+        <div class="form__label-box">
+          <label class="form__label" for="story">Напишите историю</label>
+          <span class="form__textarea-max">до 3500 символов</span>
+        </div>
+
+        <textarea class="form__textarea" id="story" name="story" rows="5" maxlength="3500" required></textarea>
+      </div>
+
+      <button class="form__submit red-btn" type="submit">
+        Отправить
+      </button>
+    </form>
+    <div class="modal-form__success">
+      <p>Ваша заявка отправлена</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
