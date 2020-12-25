@@ -996,6 +996,10 @@ img {
     margin-top: -40px;
   }
 
+  .member-card--reversed .member-card__photo-name {
+    margin-right: 0;
+  }
+
   .member-card__name-box {
     width: 249px;
     justify-content: center;
